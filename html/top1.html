@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yoru.me</title>
+	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.raty.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+	
+</head>
+<body>
+	<!--Header - menu-->
+	<div class="header">
+		<div class="inner fl-menu">
+		<div class="logo">
+			<a href="#" class="pc-show"><img src="assets/images/logo-yureme.png" alt="logo-yure.me" class="img-logo "></a>
+			<a href="#" class="sp-show"><img src="assets/images/logo-yureme-sp.png" alt="logo-yure.me" class="img-logo "></a>
+		</div>
+		<ul class="menu">
+			<li><a href="#"><img src="assets/images/icon-question.png" alt="新規登録">新規登録</a></li>
+			<li><a href="#"><img src="assets/images/icon-login.png" alt="ログイン">ログイン</a></li>
+			<li><a href="#"><img src="assets/images/icon-comment.png" alt="口コミを投稿">口コミを投稿</a></li>
+			<li><a href="#"><img src="assets/images/search-icon.png" alt="ロコミ審査基準">ロコミ審査基準</a></li>
+		</ul>
+		</div>
+	</div>
+	<!--Container-->
+	<div class="container">
+		<!--banner-->
+		<div class="banner">
+			<div class="banner__info">
+				<p class="banner__title">
+                    本当のことが知りたい。
+				</p>
+				<p>ナイトワークの実態を女性同士で共有する。<br/>
+                    yo-ru.meで口コミすれば、きっと誰かの助けになる。
+				</p>
+				<div class="banner__note">
+					<p>口コミの数：3594件<br/>
+					掲載店舗数：18476件<br/>
+					ありがとうの数：23250
+				</p>
+					<a href="#">yo-ru.meってなに？</a>
+				</div>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="search">
+				<div class="ip-search">
+					<input type="text" name="search-ip" placeholder="店名・サイト名で検索">
+					<p class="search-icon"><img src="assets/images/icon-search.png"></p>
+				</div>
+                <p> ＞＞＞より詳しく探す</p>
+			</div>
+		</div>
+		<ul class="thumb-list js-thumb-list">
+			<li class="active" data-shop="info-shop1"><a><i>風俗の口コミ</i></a></li>
+			<li data-shop="info-shop2"><a><i>水商売の口コミ</i></a></li>
+			<li data-shop="info-shop3"><a><i>パパ活の口コミ</i></a></li>
+		</ul>
+		<div class="inner pb-20">
+			<div class="js-info-shop1 js-info">
+				<p class="title__content">評価の高い口コミランキング</p>
+				<ul class="list__detail js-list-detail">
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-yellow">1</span> アッシュ（新宿）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3" >
+										</p>
+										<!-- <div id="default"></div> -->
+										<div class="status__like"><p class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</p><i class="comment">951</i></div>
+										</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-gray">2</span> 秋葉原コスプレ学園（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate  js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</p><i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-brown">3</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">4</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">5</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">6</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">7</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">8</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">9</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">10</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<p class="view-more bg-gray-light js-view-more">もっと口コミを見る</p>
+				<p class="view-more bg-gray-light js-close">格納</p>
+			</div>
+			<div class="js-info-shop2 hide-list js-info">
+				<p class="title__content">評価の高い口コミランキング</p>
+				<ul class="list__detail js-list-detail">
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-yellow">1</span> アッシュ（新宿）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3" >
+										</p>
+										<!-- <div id="default"></div> -->
+										<div class="status__like"><p class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</p><i class="comment">951</i></div>
+										</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-gray">2</span> 秋葉原コスプレ学園（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate  js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</p><i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-brown">3</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">4</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">5</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">6</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">7</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">8</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">9</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">10</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<p class="view-more bg-gray-light js-view-more">もっと口コミを見る</p>
+				<p class="view-more bg-gray-light js-close">格納</p>
+			</div>
+			<div class="js-info-shop3 hide-list js-info">
+				<p class="title__content">評価の高い口コミランキング</p>
+				<ul class="list__detail js-list-detail">
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-yellow">1</span> アッシュ（新宿）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3" >
+										</p>
+										<!-- <div id="default"></div> -->
+										<div class="status__like"><p class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</p><i class="comment">951</i></div>
+										</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-gray">2</span> 秋葉原コスプレ学園（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate  js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</p><i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-brown">3</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">4</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">5</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">6</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">7</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">8</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">9</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="hide-list">
+						<a href="#">
+							<div class="detail__info">
+								<div class="detail__shop">
+									<p class="no-number"><span class="bg-blue">10</span> コスプレアカデミー（渋谷）</p>
+									<p>投稿者：20代前半・約6ヶ月在籍<br/>
+										投稿日時：2018年10月10日
+									</p>
+								</div>
+								<div class="detail__review">
+									<div class="status">
+										<p class="status__title">客層について</p>
+										<p class="status__rate js-read" data-value="3">
+										</p>
+										<div class="status__like"><p class="tag-like">
+											<img src="assets/images/icon-heart-pink.png">ありがとう</p>
+											<i class="comment">951</i>
+										</div>
+									</div>
+									<p class="detail__text">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ </p>
+
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<p class="view-more bg-gray-light js-view-more">もっと口コミを見る</p>
+				<p class="view-more bg-gray-light js-close">格納</p>
+			</div>
+			<!--<p class="view-more bg-gray-light js-view-more">もっと口コミを見る</p>-->
+			<!--<p class="view-more bg-gray-light js-close">格納</p>-->
+			<p class="title__content">お店の総合評価ランキング<span>　＞＞＞他のランキングも見る</span></p>
+			<ul class="thumb-list-shop slider-slick-js">
+				<li><a href="#">
+					
+						<p class="no-number"><span class="bg-yellow">1</span> ッシュ(新宿)</p>
+						<div class="rating__value">
+						<p class="rating-shop js-read" data-value="3">
+							
+						<p class="value">3.02</p>
+					</div>
+						<p class="thumb-list__info">掲載店舗数：18476件</p>
+						<p class="thumb-list__info">掲載店舗数：18476件</p>
+						<p class="thumb-list__info">掲載店舗数：18476件</p>
+					
+				</a></li>
+				<li><a href="#">
+					<p class="no-number"><span class="bg-gray">2</span> ッシュ(新宿)</p>
+						<div class="rating__value">
+						<p class="rating-shop js-read" data-value="3">
+							
+						</p>
+						<p class="value">3.02</p>
+					</div>
+				</a></li>
+				<li><a href="#">
+					<p class="no-number"><span class="bg-brown">3</span> ッシュ(新宿)</p>
+					<div class="rating__value">
+						<p class="rating-shop js-read" data-value="3">
+							
+						</p>
+						<p class="value">3.02</p>
+					</div>
+				</a></li>
+				<li><a href="#">
+					<p class="no-number"><span class="bg-blue">4</span> ッシュ(新宿)</p>
+						<div class="rating__value">
+						<p class="rating-shop js-read" data-value="3">
+							
+						</p>
+						<p class="value">3.02</p>
+					</div>
+				</a></li>
+			</ul>
+			<p class="view-more bg-gray-light">もっと口コミを見る</p>
+		</div>
+	</div>
+	<!--footer-->	
+	<div class="footer">
+		<div class="inner">
+			<div class="footer__item js-ft">
+				<ul>
+					<li><a href="#">yo-ru.meとは？</a></li>
+					<li><a href="#">よくあるこ質同</a></li>
+					<li><a href="#">利用規約</a></li>
+					<li><a href="#">人情報保護方針</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/jquery.raty.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>店舗作成入力画面</title>
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon_icon.ico"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery.raty.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+
+</head>
+<body>
+<!--Header - menu-->
+<div class="header">
+  <div class="inner fl-menu">
+    <div class="logo">
+      <a href="#" class="pc-show"><img src="assets/images/logo-yureme.png" alt="logo-yure.me" class="img-logo "></a>
+      <a href="#" class="sp-show"><img src="assets/images/logo-yureme-sp.png" alt="logo-yure.me" class="img-logo "></a>
+    </div>
+    <ul class="menu">
+      <li><a href="#"><img src="assets/images/icon-question.png" alt="新規登録">新規登録</a></li>
+      <li><a href="#"><img src="assets/images/icon-login.png" alt="ログイン">ログイン</a></li>
+      <li><a href="#"><img src="assets/images/icon-comment.png" alt="口コミを投稿">口コミを投稿</a></li>
+      <li><a href="#"><img src="assets/images/search-icon.png" alt="ロコミ審査基準">ロコミ審査基準</a></li>
+    </ul>
+  </div>
+</div>
+<!--Container-->
+<div class="container">
+  <div class="inner">
+    <ul class="admin-step">
+      <li class="active">店舗作成<br class="for-sp">入力画面</li>
+      <li>店舗作成<br class="for-sp">確認画面</li>
+      <li>店舗作成<br class="for-sp">完了画面</li>
+    </ul>
+    <p class="title__content admin__title">店舗作成入力画面</p>
+    <form>
+      <div class="admin__form">
+        <div class="admin__form--left">
+          <label>分類<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right js-admin-shoptype">
+          <label class="radio-label"><input type="radio" name="shop_type"  value="1" checked> <span>水商売</span></label>
+          <label class="radio-label"><input type="radio" name="shop_type"  value="2"><span>風俗</span></label>
+          <label class="radio-label"><input type="radio" name="shop_type"  value="3"><span>パパ活</span></label>
+        </div>
+        <div class="admin__form--left">
+          <label for="shop_code">店舗番号<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right">
+          <input type="text" id="shop_code" placeholder="６桁のユニーク番号">
+          <p class="error-txt red-txt">dummy dummy dummy</p>
+        </div>
+        <div class="admin__form--left">
+          <label for="shop_name">店舗名<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right">
+          <input type="text" id="shop_name" maxlength="255" placeholder="自由記入">
+        </div>
+        <div class="admin__form--left">
+          <label>業種<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right business-list">
+          <select class="js-business-1 active">
+            <option> 選択してください</option>
+            <option value="1">ガールズバー</option>
+            <option value="2">キャバクラ</option>
+            <option value="3">クラブ</option>
+            <option value="4">ニュークラブ</option>
+            <option value="5">スナック・パブ</option>
+            <option value="6">ラウンジ</option>
+            <option value="7">メイド喫茶</option>
+            <option value="8">コスプレキャバ</option>
+            <option value="9">イチャキャバ</option>
+            <option value="10">セクキャバ</option>
+          </select>
+          <select class="js-business-2">
+            <option> 選択してください</option>
+            <option value="1">ヘルス</option>
+            <option value="2">ソープ</option>
+            <option value="3">料亭</option>
+            <option value="4">ピンサロ</option>
+            <option value="5">オナクラ</option>
+            <option value="6">エステ・リフレ</option>
+            <option value="7">性感マッサージ</option>
+            <option value="8">ライブチャット</option>
+            <option value="9">撮影会</option>
+            <option value="10">AVプロダクション</option>
+          </select>
+          <select class="js-business-3">
+            <option> 選択してください</option>
+            <option value="1">交際クラブ</option>
+            <option value="2">パパ活サイト</option>
+            <option value="3">ギャラ飲みサイト</option>
+            <option value="4">レンタル彼女</option>
+          </select>
+        </div>
+        <div class="admin__form--left">
+          <label>お店の特徴<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right">
+          <label class="checkbox-label"><input type="checkbox" value="1"><span>高級</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="2"><span>普通・大衆</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="3"><span>激安店</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="4"><span>店舗型</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="5"><span>受付型</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="6"><span>待ち合わせ型</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="7"><span>デリバリー型</span></label>
+          <p class="red-txt error-txt">※ 複数選択可能</p>
+        </div>
+        <div class="admin__form--left">
+          <label>女性の系統<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right">
+          <label class="checkbox-label"><input type="checkbox" value="1"><span>学生</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="2"><span>ぽっちゃり</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="3"><span>巨乳</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="4"><span>人妻</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="5"><span>ギャル</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="6"><span>ロリ</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="7"><span>清楚系</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="8"><span>お姉さん</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="9"><span>熟女</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="10"><span>LGBT</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="11"><span>外国人</span></label>
+          <p class="red-txt error-txt">※ 複数選択可能</p>
+        </div>
+        <div class="admin__form--left">
+          <label>女性のこだわり<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right">
+          <label class="checkbox-label"><input type="checkbox" value="1"><span>学園系の制服</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="2"><span>オフィス系の制服</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="3"><span>私服で勤務</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="4"><span>即尺なし</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="5"><span>マットなし</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="6"><span>SMプレイなし</span></label>
+          <label class="checkbox-label"><input type="checkbox" value="7"><span>髪カラフルOK</span></label>
+          <p class="red-txt error-txt">※ 複数選択可能</p>
+        </div>
+        <div class="admin__form--left">
+          <label>都道府県<span class="red-txt">*</span></label>
+        </div>
+        <div class="admin__form--right">
+          <select class="js-admin-location">
+            <option>選択してください</option>
+            <option value="1">北海道</option>
+            <option value="2">青森</option>
+            <option value="3">岩手</option>
+            <option value="4">宮城</option>
+            <option value="5">秋田</option>
+            <option value="6">山形</option>
+            <option value="7">福島</option>
+            <option value="8">茨城</option>
+            <option value="9">栃木</option>
+            <option value="10">群馬</option>
+            <option value="11">埼玉</option>
+            <option value="12">千葉</option>
+            <option value="13">東京都</option>
+            <option value="14">神奈川</option>
+            <option value="15">新潟</option>
+            <option value="16">富山</option>
+            <option value="17">石川</option>
+            <option value="18">福井</option>
+            <option value="19">山梨</option>
+            <option value="20">長野</option>
+            <option value="21">岐阜</option>
+            <option value="22">静岡</option>
+            <option value="23">愛知</option>
+            <option value="24">三重</option>
+            <option value="25">滋賀</option>
+            <option value="26">京都</option>
+            <option value="27">大阪</option>
+            <option value="28">兵庫</option>
+            <option value="29">奈良</option>
+            <option value="30">和歌山</option>
+            <option value="31">鳥取</option>
+            <option value="32">島根</option>
+            <option value="33">岡山</option>
+            <option value="34">広島</option>
+            <option value="35">山口</option>
+            <option value="36">徳島</option>
+            <option value="37">香川</option>
+            <option value="38">愛媛</option>
+            <option value="39">高知</option>
+            <option value="40">福岡</option>
+            <option value="41">佐賀</option>
+            <option value="42">長崎</option>
+            <option value="43">熊本</option>
+            <option value="44">大分</option>
+            <option value="45">宮崎</option>
+            <option value="46">鹿児島</option>
+            <option value="47">沖縄</option>
+          </select>
+        </div>
+        <div class="admin__form--left">
+          <label>所属エリア</label>
+        </div>
+        <div class="admin__form--right">
+          <select class="js-admin-region">
+            <option>選択してください</option>
+          </select>
+        </div>
+        <div class="admin__form--left">
+          <label>ホームページ</label>
+        </div>
+        <div class="admin__form--right">
+          <input type="text">
+        </div>
+        <div class="admin__form--left">
+          <label>メモ</label>
+        </div>
+        <div class="admin__form--right">
+          <textarea rows="6"></textarea>
+        </div>
+        <div class="admin-group-btn">
+          <input type="button" value="一覧画面へ" class="admin-btn-back bg-gray-light">
+          <input type="button" value="確認画面へ" class="admin-btn-next">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<!--footer-->
+<div class="footer">
+  <div class="inner">
+    <div class="footer__item">
+      <ul class="js-ft">
+        <li><a href="#">yo-ru.meとは？</a></li>
+        <li><a href="#">よくあるこ質同</a></li>
+        <li><a href="#">利用規約</a></li>
+        <li><a href="#">人情報保護方針</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.raty.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+
+
+</body>
+</html>

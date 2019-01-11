@@ -1,0 +1,2017 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>店舗総合評価画面</title>
+	<link rel="shortcut icon" type="image/png" href="assets/images/favicon_icon.ico"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.raty.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/smart.css">-->
+</head>
+<body>
+	<!--Header - menu-->
+	<div class="header">
+		<div class="inner fl-menu">
+		<div class="logo">
+			<a href="#" class="pc-show"><img src="assets/images/logo-yureme.png" alt="logo-yure.me" class="img-logo "></a>
+			<a href="#" class="sp-show"><img src="assets/images/logo-yureme-sp.png" alt="logo-yure.me" class="img-logo "></a>
+		</div>
+		<ul class="menu">
+			<li><a href="#"><img src="assets/images/icon-question.png" alt="新規登録">新規登録</a></li>
+			<li><a href="#"><img src="assets/images/icon-login.png" alt="ログイン">ログイン</a></li>
+			<li><a href="#"><img src="assets/images/icon-comment.png" alt="口コミを投稿">口コミを投稿</a></li>
+			<li><a href="#"><img src="assets/images/search-icon.png" alt="ロコミ審査基準">ロコミ審査基準</a></li>
+		</ul>
+		</div>
+		<div class="container">
+			<div class="inner">
+				<div class="search">
+					<div class="ip-search">
+						<input type="text" name="search-ip" placeholder="店名・業種・場所で検索	">
+						<a class="search-icon"><img src="assets/images/icon-search.png"></a>
+					</div>
+					<p> ＞＞＞より詳しく探す</p>
+				</div>
+				<div class="status__shop">
+					<p class="title__shop">アッシュ(新宿)</p>
+					<div class="status__info">
+						<div class="rating__value">
+							<p class="rating-shop js-read" data-value="3">
+								
+							</p>
+							<p class="star-value">3.02</p>
+						</div>
+						<p class="number-comment"><img src="assets/images/icon-comment.png" alt="comment" class="comment-img"><span>211</span> </p>
+					</div>
+					<div class="area-review">
+						<a href="#" class="btn-review">口コミを投稿する</a>
+						<button class="btn-like">この店をフォロー</button>
+						<p class="click-me">click me click me</p>
+					</div>
+				</div>
+				<!--Char-->
+				<div class="char">
+					<img src="assets/images/char-ex.jpg" class="char-img">
+				</div>
+				<p class="name-char">1日の平均稼ぎ.312万円平均出勤時間:み3時間</p>
+			</div>
+			<div class="tab-info-shop">
+				<div class="inner tab-change">
+					<input type="radio" class="stv-radio-tab" name="radioTabTest" value="1" id="tab1" checked />
+					<label for="tab1" class="js-tab-change">客層の実態</label>
+					<input type="radio" class="stv-radio-tab " name="radioTabTest" value="2" id="tab2"  />
+					<label for="tab2" class="js-tab-change" >仕事内容の実態</label>
+					<input type="radio" class="stv-radio-tab " name="radioTabTest" value="3" id="tab3" />
+					<label for="tab3" class="js-tab-change">稼ぎの実態</label>
+					<input type="radio" class="stv-radio-tab" name="radioTabTest" value="4" id="tab4" />
+					<label for="tab4" class="js-tab-change">スタッフの実態</label>
+					<input type="radio" class="stv-radio-tab " name="radioTabTest" value="5" id="tab5" />
+					<label for="tab5" class="js-tab-change">環境面の実態</label>
+					<input type="radio" class="stv-radio-tab " name="radioTabTest" value="6" id="tab6" />
+					<label for="tab6" class="js-tab-change"> 信頼性について</label>
+				</div>
+			</div>
+			<div class="inner">
+				<div  class="js-tab js-tab1" >
+					<!-- char-->
+					<div class="char-page">
+						<p class="tittle-char">お客様の年齢層</p>
+						<img src="assets/images/img-char1.jpg" class="w-char">
+						<p class="note-char hide-list">（◯◯人の経験者の回答を集計）</p>
+					</div>
+					<div class="hide-list js-list-char">
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.2.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.3.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.4.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.5.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.6.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.7.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.8.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.9.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.10.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+					</div>
+					<div class="char-view js-char-view">
+						<a class="view-more bg-orange p-relative js-show-char edit-width">もっと口コミを見る</a>
+						<i class="view-note js-view-note">（他の９種類のアンケート）</i>
+					</div>
+
+
+					<ul class="list-review js-show-list">
+						<li>
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+									<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+					</ul>
+					<a class="view-more bg-orange js-btn-show edit-width">もっと口コミを見る</a>
+				</div>
+				<div  class="js-tab js-tab2 hide-list" >
+					<!-- char-->
+					<div class="char-page">
+						<p class="tittle-char">Dummy dummy 2</p>
+						<img src="assets/images/img-char1.jpg" class="w-char">
+						<p class="note-char hide-list">（◯◯人の経験者の回答を集計）</p>
+					</div>
+					<div class="hide-list js-list-char">
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.2.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.3.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.4.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.5.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.6.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.7.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.8.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.9.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.10.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+					</div>
+					<div class="char-view js-char-view">
+						<a class="view-more bg-orange p-relative js-show-char edit-width">もっと口コミを見る</a>
+						<i class="view-note js-view-note">（他の９種類のアンケート）</i>
+					</div>
+
+
+					<ul class="list-review js-show-list">
+						<li>
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+					</ul>
+					<a class="view-more bg-orange js-btn-show edit-width">もっと口コミを見る</a>
+				</div>
+				<div  class="js-tab js-tab3 hide-list" >
+					<!-- char-->
+					<div class="char-page">
+						<p class="tittle-char">Dummy dummy 3</p>
+						<img src="assets/images/img-char1.jpg" class="w-char">
+						<p class="note-char hide-list">（◯◯人の経験者の回答を集計）</p>
+					</div>
+					<div class="hide-list js-list-char">
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.2.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.3.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.4.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.5.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.6.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.7.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.8.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.9.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.10.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+					</div>
+					<div class="char-view js-char-view">
+						<a class="view-more bg-orange p-relative js-show-char edit-width">もっと口コミを見る</a>
+						<i class="view-note js-view-note">（他の９種類のアンケート）</i>
+					</div>
+
+
+					<ul class="list-review js-show-list">
+						<li>
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+					</ul>
+					<a class="view-more bg-orange js-btn-show edit-width">もっと口コミを見る</a>
+				</div>
+				<div  class="js-tab js-tab4 hide-list" >
+					<!-- char-->
+					<div class="char-page">
+						<p class="tittle-char">Dummy dummy 4</p>
+						<img src="assets/images/img-char1.jpg" class="w-char">
+						<p class="note-char hide-list">（◯◯人の経験者の回答を集計）</p>
+					</div>
+					<div class="hide-list js-list-char">
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.2.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.3.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.4.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.5.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.6.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.7.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.8.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.9.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.10.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+					</div>
+					<div class="char-view js-char-view">
+						<a class="view-more bg-orange p-relative js-show-char edit-width">もっと口コミを見る</a>
+						<i class="view-note js-view-note">（他の９種類のアンケート）</i>
+					</div>
+
+
+					<ul class="list-review js-show-list">
+						<li>
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+					</ul>
+					<a class="view-more bg-orange js-btn-show edit-width">もっと口コミを見る</a>
+				</div>
+				<div  class="js-tab js-tab5 hide-list" >
+					<!-- char-->
+					<div class="char-page">
+						<p class="tittle-char">Dummy dummy 5</p>
+						<img src="assets/images/img-char1.jpg" class="w-char">
+						<p class="note-char hide-list">（◯◯人の経験者の回答を集計）</p>
+					</div>
+					<div class="hide-list js-list-char">
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.2.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.3.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.4.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.5.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.6.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.7.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.8.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.9.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.10.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+					</div>
+					<div class="char-view js-char-view">
+						<a class="view-more bg-orange p-relative js-show-char edit-width">もっと口コミを見る</a>
+						<i class="view-note js-view-note">（他の９種類のアンケート）</i>
+					</div>
+
+
+					<ul class="list-review js-show-list">
+						<li>
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+					</ul>
+					<a class="view-more bg-orange js-btn-show edit-width">もっと口コミを見る</a>
+				</div>
+				<div  class="js-tab js-tab6 hide-list" >
+					<!-- char-->
+					<div class="char-page">
+						<p class="tittle-char">Dummy dummy 6</p>
+						<img src="assets/images/img-char1.jpg" class="w-char">
+						<p class="note-char hide-list">（◯◯人の経験者の回答を集計）</p>
+					</div>
+					<div class="hide-list js-list-char">
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.2.jpg" class="w-char">
+							<p class="note-char ">（◯◯人の経験者の回答を集計）</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.3.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.4.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.5.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.6.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.7.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.8.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.9.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+						<div class="char-show">
+							<p class="tittle-char">dummy dummy</p>
+							<img src="assets/images/img-char1.10.jpg" class="w-char">
+							<p class="note-char ">dummy dummy dummy</p>
+						</div>
+					</div>
+					<div class="char-view js-char-view">
+						<a class="view-more bg-orange p-relative js-show-char edit-width">もっと口コミを見る</a>
+						<i class="view-note js-view-note">（他の９種類のアンケート）</i>
+					</div>
+
+
+					<ul class="list-review js-show-list">
+						<li>
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+						<li class="hide-list">
+							<div class="status-review">
+								<p class="review-title">客層について</p>
+								<p class="review-star js-read" data-value="3">
+								</p>
+								<p class="tag-1">2018年8月</p>
+								<p class="tag-2">20代前半</p>
+								<p class="tag-3">約6ヶ月在籍</p>
+								<!--<p class="review-like"><img src="assets/images/like.png"><i class="comment"><span></span>951</i></p>-->
+								<div class="review-like"><button class="tag-like"><img src="assets/images/icon-heart-pink.png">ありがとう</button><i class="comment">951</i></div>
+
+							</div>
+							<p class="review-text">dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+								dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+							</p>
+						</li>
+					</ul>
+					<a class="view-more bg-orange js-btn-show edit-width">もっと口コミを見る</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+		<div class="inner">
+			<div class="footer__item">
+				<ul class="js-ft">
+					<li><a href="#">yo-ru.meとは？</a></li>
+					<li><a href="#">よくあるこ質同</a></li>
+					<li><a href="#">利用規約</a></li>
+					<li><a href="#">人情報保護方針</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/jquery.raty.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	</div>
